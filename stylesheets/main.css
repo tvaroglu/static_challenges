@@ -1,0 +1,98 @@
+body {
+  background-color: white;
+  font-family: sans-serif;
+}
+
+h1 {
+  background-color: red;
+  color: white;
+  font-size: 200%;
+  font-weight: bold;
+  padding: 20px;
+  width: auto;
+}
+
+h3 {
+  background-color: white;
+  color: black;
+  font-size: 150%;
+  font-weight: bold;
+  padding: 20px 40px;
+  width: auto;
+}
+
+h4 {
+  background-color: white;
+  color: black;
+  font-size: 130%;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 150px;
+  width: auto;
+}
+
+nav {
+  background-color: grey;
+  color: white;
+  font-size: 120%;
+  text-align: right;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: auto;
+}
+
+a.navbar:link, a.navbar:hover, a.navbar:active, a.navbar:visited {
+  color: white;
+  margin: 10px;
+}
+
+img#main {
+  margin-top: 10px;
+  padding-left: 20px;
+  width: 100%;
+  height: auto;
+}
+
+img.aside {
+  display: block;
+  width: 66%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 150px;
+}
+
+aside {
+  background-color: white;
+  float: right;
+  width: 30%;
+}
+
+article {
+  background-color: white;
+  float: left;
+  width: 70%;
+  padding-bottom: 20px;
+}
+
+p.article_body {
+  font-size: 110%;
+  padding: 10px 40px;
+  width: auto;
+}
+
+p.footer_body {
+  font-size: 110%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  width: auto;
+}
+
+footer {
+  background-color: grey;
+  color: white;
+  float: left;
+  width: 100%
+}
