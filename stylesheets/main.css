@@ -8,29 +8,12 @@ h1 {
   color: white;
   font-size: 200%;
   font-weight: bold;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
   width: auto;
 }
 
-h3 {
-  background-color: white;
-  color: black;
-  font-size: 150%;
-  font-weight: bold;
-  padding: 20px 40px;
-  width: auto;
-}
-
-h4 {
-  background-color: white;
-  color: black;
-  font-size: 130%;
-  font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 100px;
-  width: auto;
-}
 
 nav {
   background-color: grey;
@@ -47,52 +30,75 @@ a.navbar:link, a.navbar:hover, a.navbar:active, a.navbar:visited {
   margin: 10px;
 }
 
-img#main {
-  margin-top: 10px;
-  padding-left: 20px;
-  width: 100%;
-  height: auto;
-}
-
-img.aside {
-  display: block;
-  width: 66%;
-  height: auto;
-  padding-top: 10px;
-  padding-bottom: 30px;
-  padding-left: 100px;
-}
-
-aside {
-  background-color: white;
-  float: right;
-  width: 30%;
-}
 
 article {
   background-color: white;
   float: left;
-  width: 70%;
   padding-bottom: 20px;
+  padding-right: 120px;
+  box-sizing: border-box;
+  width: 80%;
+}
+
+img#main {
+  margin-top: 10px;
+  padding-left: 40px;
+  width: 100%;
+  height: auto;
+}
+
+h3 {
+  background-color: white;
+  color: black;
+  font-size: 150%;
+  font-weight: bold;
+  padding: 20px 60px;
+  width: auto;
 }
 
 p.article_body {
   font-size: 110%;
-  padding: 10px 40px;
+  padding: 10px 60px;
   width: auto;
 }
 
-p.footer_body {
-  font-size: 110%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
+
+aside {
+  background-color: white;
+  float: right;
+  display: block;
+  width: 20%;
+}
+
+h4 {
+  background-color: white;
+  color: black;
+  font-size: 120%;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
   width: auto;
 }
+
+img.aside {
+  padding-top: 10px;
+  padding-bottom: 60px;
+  width: 90%;
+  height: auto;
+}
+
 
 footer {
   background-color: grey;
   color: white;
   float: left;
   width: 100%
+}
+
+p.footer_body {
+  font-size: 110%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  width: auto;
 }
