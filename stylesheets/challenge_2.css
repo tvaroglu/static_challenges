@@ -56,25 +56,33 @@ a.navbar:link, a.navbar:hover, a.navbar:active, a.navbar:visited {
 }
 
 
-article {
-  background-color: black;
+div#img_main {
+  background-image: url('../images/1.jpg');
+  background-color: white; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
   padding-bottom: 20px;
-  margin-bottom: 40px;
   width: auto;
-}
-
-img#main {
-  width: 100%;
-  height: auto;
 }
 
 h3 {
-  background-color: black;
+  background-color: transparent;
   color: white;
-  font-size: 150%;
+  font-size: 175%;
   font-weight: bold;
   padding: 20px 40px;
   width: auto;
+}
+
+article {
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 p.article_body {
@@ -96,10 +104,12 @@ h4 {
   color: black;
   font-size: 140%;
   font-weight: bold;
+  padding-left: 20px;
   padding-bottom: 5px;
 }
 
 img.sub {
+  padding-left: 20px;
   width: 360px;
   height: 240px;
 }
