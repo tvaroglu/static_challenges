@@ -1,0 +1,129 @@
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  border-bottom: 1px solid white;
+  font-size: 200%;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 40px;
+  float: left;
+  box-sizing: border-box;
+  height: 75px;
+  width: 85%;
+}
+
+div.login {
+  background-color: green;
+  color: white;
+  border-bottom: 1px solid white;
+  font-size: 105%;
+  padding-top: 30px;
+  margin: auto;
+  text-align: center;
+  float: right;
+  box-sizing: border-box;
+  height: 75px;
+  width: 15%;
+}
+
+a.login:link, a.login:hover, a.login:active, a.login:visited {
+  color: white;
+  text-decoration: none;
+}
+
+
+nav {
+  background-color: navy;
+  color: white;
+  border-bottom: 1px solid white;
+  font-size: 105%;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 15px;
+  width: auto;
+}
+
+a.navbar:link, a.navbar:hover, a.navbar:active, a.navbar:visited {
+  color: white;
+  text-decoration: none;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+div#img_main {
+  background-image: url('../images/1.jpg');
+  background-color: white; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding-bottom: 20px;
+  width: auto;
+}
+
+h3 {
+  background-color: transparent;
+  color: white;
+  font-size: 175%;
+  font-weight: bold;
+  padding: 20px 40px;
+  width: auto;
+}
+
+article {
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+p.article_body {
+  color: white;
+  font-size: 110%;
+  padding: 5px 40px;
+  width: auto;
+}
+
+
+section {
+  background-color: white;
+  float: left;
+  padding: 20px;
+  width: auto;
+}
+
+h4 {
+  color: black;
+  font-size: 140%;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+
+img.sub {
+  padding-left: 20px;
+  width: 360px;
+  height: 240px;
+}
+
+
+footer {
+  background-color: black;
+  color: white;
+  float: left;
+  width: 100%
+}
+
+p.footer_body {
+  font-size: 110%;
+  padding: 40px;
+  width: auto;
+}

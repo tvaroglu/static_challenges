@@ -1,123 +1,54 @@
 body {
-  background-color: white;
   font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(white, maroon);
+  background-color: white;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
 }
 
 
 h1 {
-  background-color: red;
+  background-color: maroon;
   color: white;
   font-size: 200%;
+  font-style: italic;
   font-weight: bold;
   padding-top: 20px;
   padding-left: 40px;
-  float: left;
+  border-bottom: 4px solid black;
   box-sizing: border-box;
   height: 75px;
-  width: 60%;
-}
-
-div.login {
-  background-color: red;
-  color: white;
-  font-size: 110%;
-  padding-top: 27px;
-  padding-bottom: 40px;
-  padding-right: 20px;
-  text-align: right;
-  float: right;
-  box-sizing: border-box;
-  height: 75px;
-  width: 40%;
-}
-
-
-nav {
-  background-color: grey;
-  color: white;
-  font-size: 110%;
-  text-align: right;
-  padding-top: 93px;
-  padding-bottom: 20px;
-  padding-right: 20px;
-  margin-bottom: 20px;
-  width: auto;
-}
-
-a.navbar:link, a.navbar:hover, a.navbar:active, a.navbar:visited {
-  color: white;
-  margin: 5px;
-}
-
-
-article {
-  background-color: white;
-  float: left;
-  padding-bottom: 20px;
-  padding-right: 160px;
-  box-sizing: border-box;
-  width: 80%;
-}
-
-img#main {
-  margin-top: 10px;
-  padding-left: 40px;
   width: 100%;
-  height: auto;
-}
-
-h3 {
-  background-color: white;
-  color: black;
-  font-size: 150%;
-  font-weight: bold;
-  padding: 20px 60px;
-  width: auto;
-}
-
-p.article_body {
-  font-size: 110%;
-  padding: 10px 60px;
-  width: auto;
 }
 
 
-aside {
-  background-color: white;
-  float: right;
-  display: block;
-  width: 20%;
-}
-
-h4 {
-  background-color: white;
-  color: black;
-  font-size: 120%;
-  font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: auto;
-}
-
-img.aside {
-  padding-top: 10px;
-  padding-bottom: 60px;
-  width: 90%;
-  height: auto;
-}
-
-
-footer {
+div.index {
   background-color: grey;
   color: white;
-  float: left;
-  width: 100%
+  font-size: 110%;
+  padding-top: 18px;
+  padding-bottom: 30px;
+  padding-right: 20px;
+  text-align: right;
+  border-bottom: 2px solid black;
+  box-sizing: border-box;
+  height: 55px;
+  width: 100%;
 }
 
-p.footer_body {
-  font-size: 110%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 40px;
-  width: auto;
+a.navbar:link, a.navbar:active, a.navbar:visited {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
+ a.navbar:hover {
+   background-color: black;
+   padding-top: 20px;
+   padding-bottom: 18px;
+   padding-left: 10px;
+   padding-right: 10px;
+ }
