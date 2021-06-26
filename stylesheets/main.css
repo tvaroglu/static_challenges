@@ -9,25 +9,25 @@ h1 {
   color: white;
   font-size: 200%;
   font-weight: bold;
-  padding-top: 15px;
+  padding-top: 20px;
   padding-left: 40px;
   float: left;
   box-sizing: border-box;
-  height: 60px;
+  height: 75px;
   width: 60%;
 }
 
 div.login {
   background-color: red;
   color: white;
-  font-size: 120%;
-  padding-top: 20px;
+  font-size: 110%;
+  padding-top: 27px;
   padding-bottom: 40px;
   padding-right: 20px;
   text-align: right;
   float: right;
   box-sizing: border-box;
-  height: 60px;
+  height: 75px;
   width: 40%;
 }
 
@@ -35,10 +35,10 @@ div.login {
 nav {
   background-color: grey;
   color: white;
-  font-size: 120%;
+  font-size: 110%;
   text-align: right;
-  padding-top: 70px;
-  padding-bottom: 12px;
+  padding-top: 93px;
+  padding-bottom: 20px;
   padding-right: 20px;
   margin-bottom: 20px;
   width: auto;
@@ -54,7 +54,7 @@ article {
   background-color: white;
   float: left;
   padding-bottom: 20px;
-  padding-right: 120px;
+  padding-right: 160px;
   box-sizing: border-box;
   width: 80%;
 }
